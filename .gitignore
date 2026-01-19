@@ -1,0 +1,58 @@
+# ------------------------
+# Python Bytecode / Cache
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------
+# Virtual Environment
+# ------------------------
+venv/
+env/
+.venv/
+
+# ------------------------
+# Jupyter Notebook Checkpoints
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# IDE / Editor Files
+# ------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# Data Files
+# ------------------------
+# Exclude raw / large data files
+data/raw/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Keep sample or processed data
+!data/sample/
+!data/processed/
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# OS Files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Other
+# ------------------------
+*.pyc
+*.pyo
+*.pyd
